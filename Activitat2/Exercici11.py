@@ -1,0 +1,13 @@
+nombre = int(input("Introdueix un número: "))
+
+print(f"##### Taula de multiplicar del {nombre} ##### \n")
+print("               " + str(nombre) + " x 1"+ " = " + str(nombre*1))
+print("               " + str(nombre) + " x 2"+ " = " + str(nombre*2))
+print("               " + str(nombre) + " x 3"+ " = " + str(nombre*3))
+print("               " + str(nombre) + " x 4"+ " = " + str(nombre*4))
+print("               " + str(nombre) + " x 5"+ " = " + str(nombre*5))
+print("               " + str(nombre) + " x 6"+ " = " + str(nombre*6))
+print("               " + str(nombre) + " x 7"+ " = " + str(nombre*7))
+print("               " + str(nombre) + " x 8"+ " = " + str(nombre*8))
+print("               " + str(nombre) + " x 9"+ " = " + str(nombre*9))
+print("               " + str(nombre) + " x 10"+ " = " + str(nombre*10))
