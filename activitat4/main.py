@@ -1,4 +1,4 @@
-import exercici1 as ex1
+import Activitat4_javi.M07_UF1.Activitat4.exercici1 as ex1
 
 #Exercici 1
 #La matriu com la de la imatge de l’exercici 1
@@ -24,5 +24,3 @@ print("\n")
 print("Tipus d'elements interns")
 print((ex1.arr2).dtype)
 print("\n")
-
-
