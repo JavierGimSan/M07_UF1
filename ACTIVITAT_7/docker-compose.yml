@@ -2,11 +2,11 @@ version: '3.1'
 services:
   db:
     image: postgres:13
-    container_name: db_docker
+    container_name: db
     environment:  
       - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=system
-      - POSTGRES_USER=javi_postgres
+      - POSTGRES_PASSWORD=javi123
+      - POSTGRES_USER=javier_gimenez
     ports:
       - "5432:5432"
     volumes:
@@ -18,7 +18,7 @@ services:
       - "80:80"
     environment:
       PGADMIN_DEFAULT_EMAIL: 2023_Javier.Gimenez@iticbcn.cat
-      PGADMIN_DEFAULT_PASSWORD: system
+      PGADMIN_DEFAULT_PASSWORD: javi123
     volumes:
       - pgadmin-data:/var/lib/pgadmin
 volumes:
