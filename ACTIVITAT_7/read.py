@@ -13,4 +13,4 @@ connection = conn.cursor()
 def llegir_usuari():
     sql = 'SELECT * FROM USERS;'
     connection.execute(sql)
-    conn.commit()
+    return connection.fetchall()
