@@ -16,6 +16,6 @@ def crear_usuari(name, surname, age, email):
                     user_surname,
                     user_age,
                     user_email
-    ) VALUES (?, ?, ?, ?)'''
+    ) VALUES (%s, %s, %s, %s);'''
     connection.execute(sql, (name, surname, age, email))
     conn.commit()

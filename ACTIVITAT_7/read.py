@@ -11,6 +11,6 @@ conn = psycopg2.connect(
 connection = conn.cursor()
 
 def llegir_usuari():
-    sql = 'SELECT * FROM USERS'
+    sql = 'SELECT * FROM USERS;'
     connection.execute(sql)
     conn.commit()
