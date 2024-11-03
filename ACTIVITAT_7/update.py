@@ -41,6 +41,6 @@ def actualitza_edat(user_id, age):
 def actualitza_email(user_id, email):
     sql = '''UPDATE USERS
             SET user_email = %s
-            WHERE user_surname = %s;'''
+            WHERE user_id = %s;'''
     connection.execute(sql, (email, user_id))
     conn.commit()

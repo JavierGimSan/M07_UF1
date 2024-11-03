@@ -12,5 +12,5 @@ connection = conn.cursor()
 
 def elimina_usuari(user_id):
     sql = 'DELETE FROM USERS WHERE user_id = %s;'
-    connection.execute(sql)
+    connection.execute(sql, (user_id,))
     conn.commit()
